@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "MyFont";
+  src: url("./assets/fonts/materialdesignicons-webfont.woff2") format("woff2");
+}
+
+#root {
+  height: 100vh;
+  font-family: "MyFont", sans-serif;
+}
